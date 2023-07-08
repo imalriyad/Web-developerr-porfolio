@@ -14,7 +14,8 @@ body{
      font-size: 15px;
      font-weight: 600;
      font-family: 'Open Sans', sans-serif;
-
+     border-radius: 4px;
+     
 }
 
 /* Nav relestes styles */
@@ -30,6 +31,12 @@ body{
 .site-tittle{
     font-weight: 800;
     font-size: 38px;
+}
+.header{
+    background: #fff8f3;;
+    background-image: url("./images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 span{
     color: #FD6E0A;
@@ -61,10 +68,10 @@ nav ul li>a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    padding: 30px 30px 0px 150px;
 
 }
 .headshot{
     width: 500px;
-    flex-shrink: 0;
+    margin-bottom: -5px;
 }
