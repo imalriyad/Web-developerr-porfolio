@@ -2,7 +2,7 @@
 /* *{
     margin: 0px;
     padding: 0px;
-} */
+}  */
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -15,6 +15,7 @@ body {
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     border-radius: 4px;
+
 }
 
 .btn-space {
@@ -26,8 +27,9 @@ body {
     text-decoration: none;
     color: var(--white-color, #FFF);
 }
-nav ul>li>a:hover{
-    
+
+nav ul>li>a:hover {
+
     color: #FD6E0A;
 }
 
@@ -42,10 +44,10 @@ nav ul>li>a:hover{
 
 .header {
     background: #fff8f3;
-    ;
     background-image: url("./images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
+
 }
 
 span {
@@ -110,25 +112,32 @@ nav ul li>a {
 .banner-description {
     color: black;
     font-weight: 500;
-    
+    line-height: 25px;
+}
+
+.btn {
+    margin-top: 25px;
 }
 
 /* About Section */
-main{
+main {
     max-width: 1140px;
     margin: 0px auto;
 }
+
 .about {
     border-radius: 10px;
     background: #FFF8F3;
-    padding: 130px;
-    margin:130px 0px;
-    
+    padding: 80px 130px 50px 130px;
+    margin: 100px 0px;
+    box-shadow: 0 0 5px 2px rgba(158, 148, 148, 0.5);
+   
 }
 
 .section-tittle {
     text-align: center;
     font-size: 30px;
+    margin-top: -20px;
 }
 
 .section-description {
@@ -139,4 +148,59 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.info-tittle {
+    text-align: center;
+    font-size: 15px;
+}
+
+.info-description {
+    align-items: center;
+    font-weight: 600;
+    color: #474747;
+}
+.wish{
+    font-size: 25px; 
+    color: #FD6E0A;
+    margin-top: 80px;
+    font-family: monospace;
+}
+
+/* skill-set and boxes-styles are here  */
+.skill-list-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.skill-box {
+    width: 220px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    padding:20px;
+    height: fit-content;
+    
+}
+.icon{
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+}
+.skill-details{
+   padding-bottom: 70px;
+}
+.skill-decription{
+    color: var(--dark-03, #757575);
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 28px; */
 }
