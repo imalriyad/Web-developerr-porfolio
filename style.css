@@ -7,15 +7,16 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .menu-item {
-     border-radius: 5px;
      background-color: #FD6E0A;
      border: 0;
      padding: 12px 22px;
      font-size: 15px;
      font-weight: 600;
      font-family: 'Open Sans', sans-serif;
-     border-radius: 4px;
-     
+     border-radius: 4px; 
+}
+.btn-space{
+    margin-right: 15px;
 }
 
 /* Nav relestes styles */
@@ -74,4 +75,21 @@ nav ul li>a{
 .headshot{
     width: 500px;
     margin-bottom: -5px;
+}
+.banner-tittle{
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.banner-tittle2{
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.banner-description{
+    color: black;
 }
