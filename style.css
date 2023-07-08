@@ -241,6 +241,9 @@ main {
     padding: 80px 130px 50px 130px;
     display: flex;
     justify-content:space-around;
+    background: #FFF8F3;
+    margin-top: 85px;
+    height: fit-content;
 
 }
 .f-description{
@@ -251,16 +254,37 @@ main {
 .f-tittle{
     margin-bottom: 4px;
     text-align: start;
-     font-size: 35px;
+     font-size: 30px;
 }
 .footer-links li {
-    display:inline;
+    display:inline-block;
     list-style: none;
+    margin-top: 8px;
    
 }
 .footer-links li>a{
     margin-right: 20px;
 }
-.input-field{
-    padding: 30px;
+input{
+    padding:16px;
+    width: 250px;
+    border-radius: 5px;
+    color: var(--dark-03, #757575);
+    border: none;
+    background: #FFF;
+    outline-style: none;
+}
+
+.contact-form{
+    margin-top: 25px;
+}
+.submit-btn{
+   background-color: #FD6E0A;
+   color: var(--white-color, #FFF);
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   width: 278px;
+   margin-top: 20px;
+
+   
 }
