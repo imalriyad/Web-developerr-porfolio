@@ -3,85 +3,101 @@
     margin: 0px;
     padding: 0px;
 } */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
+
 .menu-item {
-     background-color: #FD6E0A;
-     border: 0;
-     padding: 12px 22px;
-     font-size: 15px;
-     font-weight: 600;
-     font-family: 'Open Sans', sans-serif;
-     border-radius: 4px; 
+    background-color: #FD6E0A;
+    border: 0;
+    padding: 12px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 4px;
 }
-.btn-space{
+
+.btn-space {
     margin-right: 15px;
 }
 
 /* Nav relestes styles */
-.menu-item >a{
+.menu-item>a {
     text-decoration: none;
     color: var(--white-color, #FFF);
 }
-.menu-item:hover
-{
+nav ul>li>a:hover{
+    
+    color: #FD6E0A;
+}
+
+.menu-item:hover {
     background-color: #913f05;
 }
 
-.site-tittle{
+.site-tittle {
     font-weight: 800;
     font-size: 38px;
 }
-.header{
-    background: #fff8f3;;
+
+.header {
+    background: #fff8f3;
+    ;
     background-image: url("./images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-span{
+
+span {
     color: #FD6E0A;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
-    
+
 }
-nav ul li{
-   list-style: none;
-   margin-right: 20px;
-   padding: 10px;
-   
+
+nav ul li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 10px;
+
 }
-nav ul li>a{
+
+nav ul li>a {
     text-decoration: none;
     color: #474747;
     font-weight: 600;
 }
 
 /* banner-paart */
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 30px 30px 0px 150px;
 
 }
-.headshot{
+
+.headshot {
     width: 500px;
     margin-bottom: -5px;
 }
-.banner-tittle{
+
+.banner-tittle {
     color: #474747;
     font-size: 30px;
     margin-bottom: 10px;
 }
-.banner-tittle2{
+
+.banner-tittle2 {
     color: var(--dark-01, #181818);
     font-family: Open Sans;
     font-size: 55px;
@@ -90,6 +106,37 @@ nav ul li>a{
     margin-top: 0px;
     margin-bottom: 10px;
 }
-.banner-description{
+
+.banner-description {
     color: black;
+    font-weight: 500;
+    
+}
+
+/* About Section */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    margin:130px 0px;
+    
+}
+
+.section-tittle {
+    text-align: center;
+    font-size: 30px;
+}
+
+.section-description {
+    color: (#757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
