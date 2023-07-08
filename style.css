@@ -217,9 +217,11 @@ main {
 }
 .resume-colam{
     max-width: 490px;
-    height: 630px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
+}
+.resume-box{
+    padding: 15px 0px;
 }
 .resume-description{
     color: #757575;
@@ -227,7 +229,7 @@ main {
 }
 .resume-colamName{
     font-size: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 25px
 }
 .degree{
     line-height: 0;
@@ -235,7 +237,9 @@ main {
 .r-tiitle{
     padding-bottom: 40px;
 }
-
+.cv-btn{
+    margin-top: 20px;
+}
 /* footer-section goes here  */
 .footer-container{
     padding: 80px 130px 50px 130px;
@@ -260,10 +264,15 @@ main {
     display:inline-block;
     list-style: none;
     margin-top: 8px;
+    
    
 }
 .footer-links li>a{
     margin-right: 20px;
+    
+}
+.footer-links li img{
+    width: 30px;
 }
 input{
     padding:16px;
@@ -288,3 +297,4 @@ input{
 
    
 }
+
