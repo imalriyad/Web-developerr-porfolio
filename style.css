@@ -6,27 +6,30 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.btn-primary {
+.menu-item {
      border-radius: 5px;
      background-color: #FD6E0A;
      border: 0;
-     padding: 12px 20px;
+     padding: 12px 22px;
      font-size: 15px;
      font-weight: 600;
+     font-family: 'Open Sans', sans-serif;
 
 }
 
 /* Nav relestes styles */
-.btn-primary >a{
+.menu-item >a{
     text-decoration: none;
     color: var(--white-color, #FFF);
 }
-.btn-primary:hover{
-    background-color: #474747;
+.menu-item:hover
+{
+    background-color: #913f05;
 }
+
 .site-tittle{
     font-weight: 800;
-    font-size: 35px;
+    font-size: 38px;
 }
 span{
     color: #FD6E0A;
@@ -43,13 +46,25 @@ nav ul{
 }
 nav ul li{
    list-style: none;
-   margin-right: 18px;
+   margin-right: 20px;
    padding: 10px;
    
-
 }
 nav ul li>a{
     text-decoration: none;
     color: #474747;
     font-weight: 600;
+}
+
+/* banner-paart */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.headshot{
+    width: 500px;
+    flex-shrink: 0;
 }
